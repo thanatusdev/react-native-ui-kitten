@@ -1,16 +1,16 @@
 {
-  "name": "@ui-kitten/metro-config",
+  "name": "@ui-kitten-react-native/metro-config",
   "description": "UI Kitten config for Metro Bundler",
-  "version": "5.3.1",
-  "author": "akveo <contact@akveo.com>",
+  "version": "5.3.5",
+  "author": "thanatusdev <contact@thanatusdev.com>",
   "license": "MIT",
-  "homepage": "https://github.com/akveo/react-native-ui-kitten#readme",
+  "homepage": "https://github.com/thanatusdev/react-native-ui-kitten#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/akveo/react-native-ui-kitten.git"
+    "url": "git+https://github.com/thanatusdev/react-native-ui-kitten.git"
   },
   "bugs": {
-    "url": "https://github.com/akveo/react-native-ui-kitten/issues"
+    "url": "https://github.com/thanatusdev/react-native-ui-kitten/issues"
   },
   "publishConfig": {
     "access": "public"

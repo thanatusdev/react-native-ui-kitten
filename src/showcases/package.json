@@ -1,6 +1,6 @@
 {
-  "name": "@ui-kitten/showcases",
-  "version": "5.0.0-alpha.1",
+  "name": "@ui-kitten-react-native/showcases",
+  "version": "5.0.0-alpha.5",
   "private": true,
   "workspaces": {
     "nohoist": [
