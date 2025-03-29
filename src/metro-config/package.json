@@ -1,7 +1,7 @@
 {
   "name": "@ui-kitten-react-native/metro-config",
   "description": "UI Kitten config for Metro Bundler",
-  "version": "5.3.5",
+  "version": "5.3.6",
   "author": "thanatusdev <contact@thanatusdev.com>",
   "license": "MIT",
   "homepage": "https://github.com/thanatusdev/react-native-ui-kitten#readme",

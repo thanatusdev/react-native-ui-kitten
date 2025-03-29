@@ -8,17 +8,17 @@ By default, UI Kitten is configured with processing Eva mapping packages during 
 
 The following steps are only possible with installing UI Kitten package, which manages these issues:
 ```bash
-npm i -D @ui-kitten/metro-config
+npm i -D @ui-kitten-react-native/metro-config
 
 // Using Yarn?
-yarn add -D @ui-kitten/metro-config
+yarn add -D @ui-kitten-react-native/metro-config
 ```
 
 The props passed to ApplicationProvider should also be modified:
 ```jsx
 import React from 'react';
 import * as eva from '@eva-design/eva';
-import { ApplicationProvider } from '@ui-kitten/components';
+import { ApplicationProvider } from '@ui-kitten-react-native/components';
 
 export default () => (
   <ApplicationProvider {...eva} theme={eva.light}>
@@ -44,7 +44,7 @@ If your application uses [mapping customization](design-system/customize-mapping
 
 For bare React Native project:
 ```js
-const MetroConfig = require('@ui-kitten/metro-config');
+const MetroConfig = require('@ui-kitten-react-native/metro-config');
 
 const evaConfig = {
   evaPackage: '@eva-design/eva',
@@ -67,7 +67,7 @@ For Expo project:
 ```js
 const { getDefaultConfig } = require("expo/metro-config");
 
-const MetroConfig = require('@ui-kitten/metro-config');
+const MetroConfig = require('@ui-kitten-react-native/metro-config');
 
 const evaConfig = {
   evaPackage: '@eva-design/eva',
@@ -101,7 +101,7 @@ Despite that configuring Metro Bundler may cover most of the use cases,
 we also provide a command line interface to do the same job, but manually.
 Running within the CI environment is one of the cases when it should be done before the application is built.
 
-Assuming `@ui-kitten/metro-config` package [is installed](guides/improving-performance#requirements),
+Assuming `@ui-kitten-react-native/metro-config` package [is installed](guides/improving-performance#requirements),
 we may run the following commanad:
 ```bash
 ui-kitten bootstrap @eva-design/eva

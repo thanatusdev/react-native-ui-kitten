@@ -1,7 +1,7 @@
 {
   "name": "@ui-kitten-react-native/template-ts",
   "description": "React Native template project with UI Kitten and TypeScript",
-  "version": "5.3.5",
+  "version": "5.3.6",
   "author": "thanatusdev <contact@thanatusdev.com>",
   "license": "MIT",
   "homepage": "https://github.com/thanatusdev/react-native-ui-kitten#readme",

@@ -22,14 +22,14 @@ import {
   EvaStatus,
   RenderProp,
   FalsyFC,
-} from '@ui-kitten/components/devsupport';
+} from '@ui-kitten-react-native/components/devsupport';
 import {
   IconProps,
   styled,
   StyledComponentProps,
   StyleType,
   Text,
-} from '@ui-kitten/components';
+} from '@ui-kitten-react-native/components';
 import { CircularProgressBarAnimation, CircularProgressBarAnimationConfig } from './animation';
 
 type CircularProgressBarStyledProps = Overwrite<StyledComponentProps, {

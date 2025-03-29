@@ -18,12 +18,12 @@ import {
   EvaStatus,
   LiteralUnion,
   Overwrite,
-} from '@ui-kitten/components/devsupport';
+} from '@ui-kitten-react-native/components/devsupport';
 import {
   styled,
   StyledComponentProps,
   StyleType,
-} from '@ui-kitten/components';
+} from '@ui-kitten-react-native/components';
 import { ProgressBarAnimation, ProgressBarAnimationConfig } from './animation';
 
 type ProgressBarStyledProps = Overwrite<StyledComponentProps, {

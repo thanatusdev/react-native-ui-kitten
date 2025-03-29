@@ -1,5 +1,5 @@
 import React from 'react';
-import { Icon, IconElement, Tab } from '@ui-kitten/components';
+import { Icon, IconElement, Tab } from '@ui-kitten-react-native/components';
 
 const PersonIcon = (props): IconElement => (
   <Icon

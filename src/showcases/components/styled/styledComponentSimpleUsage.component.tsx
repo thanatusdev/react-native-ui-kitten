@@ -1,6 +1,6 @@
 import React from 'react';
 import { TouchableOpacity } from 'react-native';
-import { EvaProp, styled } from '@ui-kitten/components';
+import { EvaProp, styled } from '@ui-kitten-react-native/components';
 
 interface IProps {
   eva: EvaProp;

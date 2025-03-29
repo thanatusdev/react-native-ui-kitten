@@ -9,7 +9,7 @@ import {
   ListItem,
   TopNavigation,
   TopNavigationAction,
-} from '@ui-kitten/components';
+} from '@ui-kitten-react-native/components';
 
 interface IListItem {
   title: string;
